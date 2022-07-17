@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56092F08285360A4004DB31D /* ZoomVideoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56092F07285360A4004DB31D /* ZoomVideoSwiftUIApp.swift */; };
+		56092F0A285360A4004DB31D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56092F09285360A4004DB31D /* ContentView.swift */; };
+		56092F0C285360A5004DB31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56092F0B285360A5004DB31D /* Assets.xcassets */; };
+		56092F0F285360A5004DB31D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56092F0E285360A5004DB31D /* Preview Assets.xcassets */; };
+		56092F1728536119004DB31D /* ZoomVideoSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56092F1628536119004DB31D /* ZoomVideoSDK.xcframework */; };
+		56092F1828536119004DB31D /* ZoomVideoSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56092F1628536119004DB31D /* ZoomVideoSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56092F1B28536306004DB31D /* ZoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56092F1A28536306004DB31D /* ZoomModel.swift */; };
+		56092F1D28536B29004DB31D /* SpeakerVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56092F1C28536B29004DB31D /* SpeakerVideoView.swift */; };
+		564D90F32854333000F4A28E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564D90F22854333000F4A28E /* HeaderView.swift */; };
+		564D90F728544E0200F4A28E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564D90F628544E0200F4A28E /* ChatView.swift */; };
+		564D90F92854A21800F4A28E /* BalloonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564D90F82854A21800F4A28E /* BalloonText.swift */; };
+		56D6C7BE285D6B4100ADB4C3 /* MutedVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D6C7BD285D6B4100ADB4C3 /* MutedVideoView.swift */; };
+		56D6C7C0285DA3C900ADB4C3 /* ZoomVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D6C7BF285DA3C900ADB4C3 /* ZoomVideoView.swift */; };
+		56EFA918285D552A00DEE0B5 /* LocalVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFA917285D552A00DEE0B5 /* LocalVideoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56092F1928536119004DB31D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				56092F1828536119004DB31D /* ZoomVideoSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		56092F04285360A4004DB31D /* ZoomVideoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomVideoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56092F07285360A4004DB31D /* ZoomVideoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomVideoSwiftUIApp.swift; sourceTree = "<group>"; };
+		56092F09285360A4004DB31D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56092F0B285360A5004DB31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56092F0E285360A5004DB31D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56092F1628536119004DB31D /* ZoomVideoSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZoomVideoSDK.xcframework; path = "../../SDK/iOS/zoom-video-sdk-iOS-1.3.1/Sample-Libs/lib/ZoomVideoSDK.xcframework"; sourceTree = "<group>"; };
+		56092F1A28536306004DB31D /* ZoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomModel.swift; sourceTree = "<group>"; };
+		56092F1C28536B29004DB31D /* SpeakerVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerVideoView.swift; sourceTree = "<group>"; };
+		564D90F22854333000F4A28E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		564D90F628544E0200F4A28E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		564D90F82854A21800F4A28E /* BalloonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonText.swift; sourceTree = "<group>"; };
+		56D6C7BD285D6B4100ADB4C3 /* MutedVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutedVideoView.swift; sourceTree = "<group>"; };
+		56D6C7BF285DA3C900ADB4C3 /* ZoomVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomVideoView.swift; sourceTree = "<group>"; };
+		56EFA917285D552A00DEE0B5 /* LocalVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalVideoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56092F01285360A4004DB31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56092F1728536119004DB31D /* ZoomVideoSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56092EFB285360A4004DB31D = {
+			isa = PBXGroup;
+			children = (
+				56092F06285360A4004DB31D /* ZoomVideoSwiftUI */,
+				56092F05285360A4004DB31D /* Products */,
+				56092F1528536119004DB31D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56092F05285360A4004DB31D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56092F04285360A4004DB31D /* ZoomVideoSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56092F06285360A4004DB31D /* ZoomVideoSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				56092F07285360A4004DB31D /* ZoomVideoSwiftUIApp.swift */,
+				56092F09285360A4004DB31D /* ContentView.swift */,
+				564D90F22854333000F4A28E /* HeaderView.swift */,
+				56EFA917285D552A00DEE0B5 /* LocalVideoView.swift */,
+				56D6C7BD285D6B4100ADB4C3 /* MutedVideoView.swift */,
+				56092F1C28536B29004DB31D /* SpeakerVideoView.swift */,
+				564D90F628544E0200F4A28E /* ChatView.swift */,
+				56D6C7BF285DA3C900ADB4C3 /* ZoomVideoView.swift */,
+				56092F0B285360A5004DB31D /* Assets.xcassets */,
+				56092F0D285360A5004DB31D /* Preview Content */,
+				56092F1A28536306004DB31D /* ZoomModel.swift */,
+				564D90F82854A21800F4A28E /* BalloonText.swift */,
+			);
+			path = ZoomVideoSwiftUI;
+			sourceTree = "<group>";
+		};
+		56092F0D285360A5004DB31D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56092F0E285360A5004DB31D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56092F1528536119004DB31D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56092F1628536119004DB31D /* ZoomVideoSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56092F03285360A4004DB31D /* ZoomVideoSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56092F12285360A5004DB31D /* Build configuration list for PBXNativeTarget "ZoomVideoSwiftUI" */;
+			buildPhases = (
+				56092F00285360A4004DB31D /* Sources */,
+				56092F01285360A4004DB31D /* Frameworks */,
+				56092F02285360A4004DB31D /* Resources */,
+				56092F1928536119004DB31D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomVideoSwiftUI;
+			productName = ZoomVideoSwiftUI;
+			productReference = 56092F04285360A4004DB31D /* ZoomVideoSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56092EFC285360A4004DB31D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					56092F03285360A4004DB31D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 56092EFF285360A4004DB31D /* Build configuration list for PBXProject "ZoomVideoSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56092EFB285360A4004DB31D;
+			productRefGroup = 56092F05285360A4004DB31D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56092F03285360A4004DB31D /* ZoomVideoSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56092F02285360A4004DB31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56092F0F285360A5004DB31D /* Preview Assets.xcassets in Resources */,
+				56092F0C285360A5004DB31D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56092F00285360A4004DB31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D6C7C0285DA3C900ADB4C3 /* ZoomVideoView.swift in Sources */,
+				564D90F92854A21800F4A28E /* BalloonText.swift in Sources */,
+				56092F0A285360A4004DB31D /* ContentView.swift in Sources */,
+				564D90F32854333000F4A28E /* HeaderView.swift in Sources */,
+				56092F1B28536306004DB31D /* ZoomModel.swift in Sources */,
+				564D90F728544E0200F4A28E /* ChatView.swift in Sources */,
+				56092F1D28536B29004DB31D /* SpeakerVideoView.swift in Sources */,
+				56092F08285360A4004DB31D /* ZoomVideoSwiftUIApp.swift in Sources */,
+				56D6C7BE285D6B4100ADB4C3 /* MutedVideoView.swift in Sources */,
+				56EFA918285D552A00DEE0B5 /* LocalVideoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56092F10285360A5004DB31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56092F11285360A5004DB31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56092F13285360A5004DB31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoomVideoSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = E7SWP532NF;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Required for Bluetooth audio devices";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for Video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required for Audio ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used for sharing images from the photo library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yko.ZoomVideoSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56092F14285360A5004DB31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoomVideoSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = E7SWP532NF;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Required for Bluetooth audio devices";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for Video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required for Audio ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used for sharing images from the photo library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yko.ZoomVideoSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56092EFF285360A4004DB31D /* Build configuration list for PBXProject "ZoomVideoSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56092F10285360A5004DB31D /* Debug */,
+				56092F11285360A5004DB31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56092F12285360A5004DB31D /* Build configuration list for PBXNativeTarget "ZoomVideoSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56092F13285360A5004DB31D /* Debug */,
+				56092F14285360A5004DB31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56092EFC285360A4004DB31D /* Project object */;
+}
